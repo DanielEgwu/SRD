@@ -1,6 +1,5 @@
 html, body{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;   
 }
 
 #first-header{
@@ -19,13 +18,11 @@ html, body{
 ul li{
     list-style-type: none;
     display:inline;
-    padding:4px;
-    padding-top: 10px;
+    padding: 2px;
 }
 ul{
-    text-align: right;
-    padding: 10px;
-    margin: 30px;
+   text-align: left;
+   padding-top:35px
 }
 
 ul li a{
@@ -34,22 +31,27 @@ ul li a{
     font-family:Gill sans;
 }
 a:hover{
-    color:white;
+    color:darkblue;
     background-color:unset;
 }
 .cutom-container{
     height: 300px;
 }
+
 .director h1{
     text-align: center;
     color:black;
     font-family:Georgia;
     font-style: italic;
 }
+
 .koye{
-    border-radius:400px;
-    float: right;
+   margin:auto
 }
+.speech{
+    text-overflow: ellipsis;
+}
+
 #text-wra{
     color:grey;
     font-style:oblique;
@@ -89,12 +91,14 @@ a:hover{
     top:0;
     z-index: -1000;
 }
+
 p{
     font-weight: 300;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans'; 
     font-style: normal;
     font-size: 30px;
 }
+
 #footer3 a{
     font-size: 25px;
     display: block;
@@ -102,7 +106,7 @@ p{
    
 }
 #footer3 a:hover{
-    color:deepskyblue;
+    color:white;
     font-size: 28px;
 }
 #footer-svg a{
@@ -113,36 +117,31 @@ p{
     font-size: 28px;
 }
 
-/* gallery page */
 #gallery{
     font-size:30px;
     color: blue;
 }
+
 #gallery-images h2{
     font-size: 25px;
     font-family:'Courier New', Courier, monospace;
-    /* padding: 5px; */
 }
 
 #gallery-images a{
-    border: 2px solid;
     border-radius: 10px;
     margin: 10px;
     background-color:midnightblue;
     color: white;
     width:50%;
     text-decoration: none;
-    /* padding-left: 10px; */
-    position:relative;
-    left:60px;
     text-align:center;
     font-size:27px
 }
-#gallery-images a:hover{
-    background-color:grey;
-}
 
-/* ggds */
+#gallery-images a:hover{
+    background-color:rgb(43, 165, 206);
+    transition-duration: 0.7s;
+}
 
 #gds-3{
     position: relative;
@@ -155,16 +154,70 @@ p{
 #admi-image{
     float: right;
 }
+.form-wrapper{
+    background-color:#009688;
+    margin:80px;
+    justify-content: space-between;
+}
+form input[type="radio"]{
+    margin:0;
+    color:blue;
+    width:50px;
+    height: auto;
+}
+
 .js1{
-    border:1px solid;
     background-color: blue;
     color: white;
-    padding: 4px;
-    margin:5px;
+    border-radius: 10px;
     text-decoration:none;
+    float: left;
 }
 .js1:hover{
     background-color:red;
     color: white;
     text-decoration: none;
+    transition-duration: 0.5s;
+}
+form{
+    color:#FFFFFF;
+    
+}
+form ul{
+    list-style: none;
+    margin-left:290px;
+}
+form ul li{
+    display: block;
+}
+label{
+    padding-left: 0px;
+}
+form  label input{
+    margin:10px;
+    width:500px;  
+    height:40px ;
+} 
+
+.child, .parent{
+    padding: 30px;
+    text-align: center;
+    color:#FFFFFF
+}
+hr{
+    width:600px;
+    background-color:#000000;
+}
+.submitbtn{
+    border:none;
+    width:80px;
+    background-color:#000050 ;
+    text-align: center;
+    margin:50px 0px 20px 300px;
+    color:white;
+}
+.submitbtn:hover{
+    background-color: #1B20AF;
+    color:white;
+    transition-duration: 1s;
 }

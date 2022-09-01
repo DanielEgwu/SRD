@@ -16,16 +16,12 @@ html, body{
     background-color:lightsteelblue;
    
 }
-ul li{
-    list-style-type: none;
-    display:inline;
-    padding:4px;
-    padding-top: 10px;
-}
+
+
 ul{
     text-align: right;
-    padding: 10px;
-    margin: 30px;
+    padding: 2px;
+    margin-top: 30px;
 }
 
 ul li a{
@@ -47,7 +43,7 @@ a:hover{
     font-style: italic;
 }
 .koye{
-    border-radius:400px;
+    border-radius: 0;
     float: right;
 }
 #text-wra{
@@ -97,12 +93,11 @@ p{
 }
 #footer3 a{
     font-size: 25px;
-    display: block;
-    text-decoration: none;
    
 }
+
 #footer3 a:hover{
-    color:deepskyblue;
+    color:darkblue;
     font-size: 28px;
 }
 #footer-svg a{
